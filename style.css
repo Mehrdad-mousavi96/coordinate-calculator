@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.firstEl {
+  text-align: center;
+  width: 80%;
+  height: 2rem;
+  margin: 2rem 0;
+}
+
+.secondEl {
+  text-align: center;
+  width: 80%;
+  height: 2rem;
+  margin: 2rem 0;
+}
+
+.click {
+  width: 25%;
+  height: 2rem;
+  margin: 2rem 0;
+  color: white;
+  background-color: #3B513C;
+  border: none;
+  border-radius: .5rem;
+
+} 
+
+.cleanButtons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+
+.clear1st {
+  width: 30%;
+  height: 2.2rem;
+  margin: 2.5rem 0;
+  color: white;
+  background-color: #E03142;
+  border: none;
+  border-radius: .5rem;
+
+}
+
+.clear2st {
+  width: 30%;
+  height: 2.2rem;
+  margin: 2.5rem 0;
+  color: white;
+  background-color: #E03142;
+  border: none;
+  border-radius: .5rem;
+}
